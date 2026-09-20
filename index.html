@@ -63,7 +63,7 @@ section{padding:50px 0;scroll-margin-top:68px}.section-head{margin-bottom:23px}.
 .spot-body{padding:17px 17px 18px}.spot-body h3{color:var(--navy);font-size:1.08rem;margin:0 0 6px}.spot-body p{margin:0;color:var(--muted);font-size:.92rem}
 .featured-row{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:18px}.mini-card{border:1px solid #e4e1d9;border-radius:14px;padding:12px 11px;background:#fff;text-align:center;font-weight:900;color:var(--navy);font-size:.82rem}.mini-card:nth-child(1){border-top:4px solid var(--red)}.mini-card:nth-child(2){border-top:4px solid var(--orange)}.mini-card:nth-child(3){border-top:4px solid var(--yellow)}.mini-card:nth-child(4){border-top:4px solid var(--green)}.mini-card:nth-child(5){border-top:4px solid var(--blue)}.mini-card:nth-child(6){border-top:4px solid var(--purple)}.mini-card:nth-child(7){border-top:4px solid var(--pink)}.mini-card:nth-child(8){border-top:4px solid var(--navy)}
 
-.plan{background:#fff9ea;border-top:1px solid #f4e6bc;border-bottom:1px solid #f4e6bc}.plan-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:20px}.schedule,.map-card{background:#fff;border:1px solid #e7dfca;border-radius:18px;padding:21px;box-shadow:var(--shadow)}.schedule h3,.map-card h3{margin:0 0 12px;color:var(--navy);font-size:1.25rem}.time-list{display:grid;gap:9px}.time-row{display:grid;grid-template-columns:105px 1fr;gap:12px;align-items:start;padding:9px 0;border-bottom:1px dotted #d9d4c8}.time-row:last-child{border:0}.time{font-weight:1000;color:var(--purple)}.time-row p{margin:0;color:var(--muted)}
+.plan{background:#fff9ea;border-top:1px solid #f4e6bc;border-bottom:1px solid #f4e6bc}.plan-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:20px}.schedule,.map-card{background:#fff;border:1px solid #e7dfca;border-radius:18px;padding:21px;box-shadow:var(--shadow)}.schedule h3,.map-card h3{margin:0 0 12px;color:var(--navy);font-size:1.25rem}.time-list{display:grid;gap:9px}.time-row{display:grid;grid-template-columns:105px 1fr;gap:12px;align-items:start;padding:9px 0;border-bottom:1px dotted #d9d4c8}.time-row:last-child{border:0}.time{font-weight:1000;color:var(--purple)}.time-row p{margin:0;color:var(--muted)}.activity-list{display:grid;gap:3px}.activity-list p{position:relative;padding-left:13px}.activity-list p:before{content:"";position:absolute;left:0;top:.65em;width:5px;height:5px;border-radius:50%;background:var(--green)}.petting-zoo{margin-top:5px!important;color:var(--green)!important;font-weight:900}.itinerary-footer{margin:15px 0 0;padding-top:13px;border-top:2px dotted #d9d4c8;color:var(--purple);font-family:"Segoe Print","Bradley Hand",cursive;font-weight:900;text-align:center}
 .map-placeholder{min-height:240px;border:2px dashed #b5c29d;border-radius:16px;background:linear-gradient(135deg,#f5faee,#eff8fb);display:grid;place-items:center;text-align:center;padding:20px;color:var(--muted);position:relative;overflow:hidden}.map-pin{font-size:2.4rem}.map-placeholder strong{display:block;color:var(--navy);font-size:1.05rem}.map-placeholder:after{content:"";position:absolute;inset:15% -5% auto 35%;height:2px;background:repeating-linear-gradient(90deg,var(--green) 0 8px,transparent 8px 15px);transform:rotate(-12deg);opacity:.5}
 
 .explore{background:#fff}.explore-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.explore-card{border-radius:18px;padding:22px;border:1px solid #e0e4dc;box-shadow:var(--shadow);background:var(--soft-blue)}.explore-card:nth-child(2){background:var(--soft-green)}.explore-card h3{margin:0 0 8px;color:var(--navy);font-size:1.35rem}.explore-card p{color:var(--muted);margin:0 0 14px}.card-actions{display:flex;gap:8px;flex-wrap:wrap}
@@ -266,13 +266,18 @@ header{position:relative;top:auto}
 </div>
 <div class="plan-grid">
 <article class="schedule">
-<h3>Day at a Glance</h3>
+<h3>Fun Fest Itinerary</h3>
 <div class="time-list">
-<div class="time-row"><div class="time">11:00 AM</div><p>Fun Fest opens.</p></div>
-<div class="time-row"><div class="time">11 AM–1 PM</div><p>Petting Zoo with JC’s Pony Parties.</p></div>
-<div class="time-row"><div class="time">Throughout</div><p>Activities, food, games, crafts, music, Explorer Passport, community tables and more.</p></div>
-<div class="time-row"><div class="time">3:00 PM</div><p>Fun Fest wraps up.</p></div>
+<div class="time-row"><div class="time">11:00–11:30</div><div class="activity-list"><p>StoryTime Read Aloud</p><p>Improv – UUPlayers</p><p class="petting-zoo">Petting Zoo</p></div></div>
+<div class="time-row"><div class="time">11:30–12:00</div><div class="activity-list"><p>Tai Chi (David Bailey)</p><p class="petting-zoo">Petting Zoo</p></div></div>
+<div class="time-row"><div class="time">12:00–12:30</div><div class="activity-list"><p>StoryTime Read Aloud</p><p>History Tour of Grounds (Diana Bell)</p><p class="petting-zoo">Petting Zoo</p></div></div>
+<div class="time-row"><div class="time">12:30–1:00</div><div class="activity-list"><p>Breathing instruction and meditation (Bob Welsh)</p><p class="petting-zoo">Petting Zoo</p></div></div>
+<div class="time-row"><div class="time">1:00–1:30</div><div class="activity-list"><p>StoryTime Read Aloud</p><p>Writing Workshop (Sari Bodi)</p></div></div>
+<div class="time-row"><div class="time">1:30–2:10</div><div class="activity-list"><p>Tai Chi (David Bailey)</p></div></div>
+<div class="time-row"><div class="time">2:00–2:30</div><div class="activity-list"><p>StoryTime Read Aloud</p></div></div>
+<div class="time-row"><div class="time">2:30–3:00</div><div class="activity-list"><p>Improv – UUPlayers</p><p class="petting-zoo">Fun wraps up!</p></div></div>
 </div>
+<p class="itinerary-footer">Food, firetruck, games, crafts, music and more throughout the day!</p>
 </article>
 <article class="map-card">
 <h3>Event Map</h3>
